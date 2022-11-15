@@ -1,21 +1,11 @@
 $(document).ready(function() {
 
-
-    /*fetch('https://uyghur.ai/course/data/pokemon.json')
-        .then(function(response) {
-            return response.json();
-        })
-        .then(function(data) {
-            displayPokemonCards(data)
-        });
-    */
     $.get("https://uyghur.ai/course/data/pokemon.json", function(data, status) {
-        //alert("Data: " + data + "\nStatus: " + status);
         if (status == "success") {
-            //jsonObj = data.json();
             displayPokemonCards(data)
+        } else {
+            alert('Failed to load the pokemon.json, please contact administrator.');
         }
-        //$("#div1").html(data);
     });
 
     function displayPokemonCards(pokemonData) {
