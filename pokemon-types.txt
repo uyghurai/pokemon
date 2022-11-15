@@ -1,0 +1,14 @@
+Water
+Fire
+Grass
+Electric
+Bug
+Ghost
+Normal
+Psychic
+Dragon
+Ice
+Poison
+Ground
+Rock
+Fighting
