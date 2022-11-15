@@ -1,0 +1,2 @@
+# pokemon
+ simple pokemon deck
