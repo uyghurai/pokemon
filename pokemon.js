@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     $.get("https://uyghur.ai/course/data/pokemon.json", function(data, status) {
         if (status == "success") {
-            displayPokemonCards(data)
+            displayPokemonCards(data);
         } else {
             alert('Failed to load the pokemon.json, please contact administrator.');
         }
